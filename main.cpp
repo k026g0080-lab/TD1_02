@@ -53,6 +53,14 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！！！！早く気づいて！！！feature");
 		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！！！！早く気づいて！！feature");
 		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！！！！早く気づいて！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！！！早く気づいて！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！！早く気づいて！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！早く気づいて！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！早く気づいて！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！早く気づいて！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ早く気づいて！feature");
+
+		Novice::ScreenPrintf(100, 100, "二回目だってばよ");
 
 		///
 		/// ↑描画処理ここまで
