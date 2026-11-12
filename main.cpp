@@ -39,6 +39,12 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 		Novice::DrawEllipse(200, 200, 100, 100, 0.0f, BLACK, kFillModeSolid);
 		Novice::ScreenPrintf(600, 200, "テスト用でういっす");
 
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！早く気づいて！！！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！早く気づいて！！！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！早く気づいて！！！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！早く気づいて！！！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！早く気づいて！！！！feature");
+
 		///
 		/// ↑描画処理ここまで
 		///
