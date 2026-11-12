@@ -37,11 +37,22 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 
 		Novice::DrawBox(940, 520, 100, 100, 0.0f, BLACK, kFillModeSolid);
 
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！早く気づいて！！！！！！！！！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！早く気づいて！！！！！！！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！早く気づいて！！！！！！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！早く気づいて！！！！！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！早く気づいて！！！！！feature");
 		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！早く気づいて！！！！feature");
-		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！早く気づいて！！！！feature");
-		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！早く気づいて！！！！feature");
-		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！早く気づいて！！！！feature");
-		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！早く気づいて！！！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！！早く気づいて！！！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！！！早く気づいて！！！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！！！！早く気づいて！！！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！！！！！早く気づいて！！！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！！！！！！早く気づいて！！！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！！！！！早く気づいて！！！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！！！！早く気づいて！！！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！！！！早く気づいて！！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！！！！早く気づいて！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！！！！早く気づいて！feature");
 
 		///
 		/// ↑描画処理ここまで
