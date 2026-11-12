@@ -19,7 +19,7 @@ struct Player
 int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 
 	// ライブラリの初期化
-	Novice::Initialize(kWindowTitle, 1280, 720);
+	Novice::Initialize(kWindowTitle, 1920, 1080);
 
 	// キー入力結果を受け取る箱
 	char keys[256] = {0};
@@ -55,7 +55,13 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 		/// ↓描画処理ここから
 		///
 
-		
+		Novice::DrawEllipse(
+			static_cast<int>(player.pos.x),
+			static_cast<int>(player.pos.y),
+			static_cast<int>(player.radius),
+			static_cast<int>(player.radius),
+			0.0f, WHITE, kFillModeSolid
+		);
 
 		///
 		/// ↑描画処理ここまで
