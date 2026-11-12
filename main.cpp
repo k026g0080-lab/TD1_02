@@ -54,7 +54,7 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 		///
 		/// ↓描画処理ここから
 		///
-
+ a
 		Novice::DrawEllipse(
 			static_cast<int>(player.pos.x),
 			static_cast<int>(player.pos.y),
@@ -62,6 +62,17 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 			static_cast<int>(player.radius),
 			0.0f, WHITE, kFillModeSolid
 		);
+
+		Novice::DrawBox(940, 520, 100, 100, 0.0f, BLACK, kFillModeSolid);
+		Novice::DrawEllipse(200, 200, 100, 100, 0.0f, BLACK, kFillModeSolid);
+		Novice::ScreenPrintf(600, 200, "テスト用でういっす");
+
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！早く気づいて！！！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！早く気づいて！！！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！早く気づいて！！！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！早く気づいて！！！！feature");
+		Novice::ScreenPrintf(100, 100, "テスト用ですよ！！！早く気づいて！！！！feature");
+ master
 
 		///
 		/// ↑描画処理ここまで
