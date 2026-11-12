@@ -6,7 +6,7 @@ const char kWindowTitle[] = "タイトル";
 int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 
 	// ライブラリの初期化
-	Novice::Initialize(kWindowTitle, 1280, 720);
+	Novice::Initialize(kWindowTitle, 1920, 1080);
 
 	// キー入力結果を受け取る箱
 	char keys[256] = {0};
@@ -35,7 +35,7 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 		/// ↓描画処理ここから
 		///
 
-
+		Novice::DrawBox(940, 520, 100, 100, 0.0f, BLACK, kFillModeSolid);
 
 		///
 		/// ↑描画処理ここまで
