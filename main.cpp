@@ -2,6 +2,19 @@
 
 const char kWindowTitle[] = "タイトル";
 
+struct Vector2
+{
+	float x;
+	float y;
+};
+
+struct Player
+{
+	Vector2 pos;
+	float radius;
+	float speed;
+};
+
 // Windowsアプリでのエントリーポイント(main関数)
 int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 
@@ -11,6 +24,13 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 	// キー入力結果を受け取る箱
 	char keys[256] = {0};
 	char preKeys[256] = {0};
+
+	Player player
+	{
+		{ 30.0f,30.0f },
+		40.0f,
+		10.0f
+	};
 
 	// ウィンドウの×ボタンが押されるまでループ
 	while (Novice::ProcessMessage() == 0) {
@@ -35,7 +55,7 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 		/// ↓描画処理ここから
 		///
 
-		Novice::ScreenPrintf(0, 0, "aaaaaaaaaaaaaa");
+		
 
 		///
 		/// ↑描画処理ここまで
